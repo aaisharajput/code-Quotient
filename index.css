@@ -1,0 +1,243 @@
+*{
+    padding:0 0;
+    margin:0 0;
+}
+body{
+    
+}
+/* navbar*/
+nav .code,nav .quotient{
+    color: #DE6834;
+}
+
+nav .code{
+    padding-left: 20px;
+    font-family: "Changa";
+    font-weight: 500;
+    font-size: 27px;
+}
+
+nav .quotient{
+    font-family: 'Changa One',cursive;
+    font-size: 27px;
+    margin-left:-6px;
+}
+
+
+.link1,.link2{
+    color: #333333;
+    font-size: 16.5px;
+}
+
+.link3,.link4{
+    color: #707070;
+}
+
+.link3{
+    font-size:25px;
+    font-weight: lighter;
+    color:#dedbdb
+}
+
+/* section 1*/
+.launch{
+    display: flex;
+    justify-content: center;
+}
+.launch .h1-span{
+    background: linear-gradient(to bottom, #F74B00 ,  #DBA630 );
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+}
+.rocket{
+    display: flex;
+    justify-content: center;
+    padding: 45px 0;
+    
+}
+.rocket img{
+    width: 77%;
+}
+
+.btn{
+    background-color: #DE6834;
+    color: #fff;
+}
+
+.info{
+    padding:12%;
+    padding-right: 0;
+}
+.info .h1-title{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.info .tech{
+    background: linear-gradient(to bottom,#333333 0%, #767676 ) no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.info p{
+    font-size: 22px;
+    line-height: 35px;
+    font-family: "Avenir Book", sans-serif;
+}
+
+.img_size{
+    width:100%;
+}
+
+.title{
+    color:#DE6834;
+}
+
+.sec-2{
+    font-size: 55px;
+}
+
+.sec-p{
+    font-size: 26px;
+    font-weight: 400;
+    word-spacing: 7px;
+    font-family: "Avenir Book", sans-serif;
+    padding-right: 28%;
+}
+
+.img-p{
+    color: #fff;
+    font-weight: bold;
+}
+
+.p1{
+    position: absolute;
+    bottom: 8%;
+    left:6%;
+}
+
+.p2{
+    position: absolute;
+    top: 2%;
+    right:6%;
+}
+
+/* section 2*/
+.j1{
+    width:80%;
+    margin-left:10%;
+    background: linear-gradient(to right, #DE6834 , #84330F );	
+    color: #fff;
+}
+.j1 p,.j1 h2{
+    text-align: center;
+}
+
+/*section 3*/
+.img_size1{
+    width:85%;
+
+}
+.img_size2{
+    width: 85%;
+}/*
+.img2{
+    position:relative ;
+    left: 13%;
+}*/
+
+.card-title{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.card-body{
+    padding:0 50px;
+}
+/*.card:first-child{
+    position: relative;
+    left: 26%;
+}
+
+.card2{
+    position: relative;
+    right: 16%;
+}
+*/
+.comp{
+    position: absolute;
+    top:15%;
+    left:10%;
+    font-size: 75px;
+    font-weight: 600;
+    color: #fff;
+}
+.img-t1{
+    filter: brightness(70%);
+}
+.coll{
+    position: absolute;
+    top:13%;
+    left:12%;
+    font-size: 78px;
+    font-weight: 600;
+    color: #fff;
+    opacity: .7;
+}
+
+/*section 5*/
+
+.j2{    
+    background-color: #FFEEE5;	
+    color: #DE6834;
+}
+.j2 p{
+    font-weight: 600;
+}
+
+.touch-img{
+    width: 55%;    
+    display: flex;
+    float:right;
+}
+
+/*footer*/
+footer{
+    background-color: #EFEFEF;
+    
+}
+footer .code{
+    padding-left: 20px;
+    font-family: "Changa";
+    font-weight: 500;
+    font-size: 27px;
+}
+
+footer .quotient{
+    font-family: 'Changa One',cursive;
+    font-size: 27px;
+    margin-left:-6px;
+}
+
+footer i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+footer a{
+    color: #727272;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+/*carousel*/
+.carousel{
+    box-shadow:5px 10px 5px 10px #dfdcdc;
+}
