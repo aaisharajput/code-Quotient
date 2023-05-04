@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <script>
+           function print(data){
+                for(let i=1;i<=data;++i){
+                    for(let j=1;j<=data;++j){
+                     if(i%2!=0){
+                        if(j%2==0)
+                            document.write("    #    ");
+                        else
+                            document.write("    *    ");
+                     }
+                     else{
+                        if(j%2==0)
+                            document.write("    *    ");
+                        else
+                            document.write("    #    ");
+                     }
+                    }
+                  document.write(newLine());
+                }
+           }
+
+           function newLine(){
+                return "<br>";
+            }
+
+            let board_size=8;
+            print(board_size);
+        </script>
+    </body>
+</html>
