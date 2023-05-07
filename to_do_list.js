@@ -9,26 +9,17 @@
         for (let x = 0; x<task.length; x++) {
             key_no=task[x].id;
 
-            if(i<Number(key_no)) 
+            if(i<key_no) 
                 i=key_no;
             
             task_list.innerHTML+=`<div class='col-12 col-md-12' id='col${key_no}'>
                                  <input type='text' style='border:none' id='p${key_no}' value='${task[x].task_list}' disabled>
                                  <i class='fa fa-xmark position-relative float-right mr-5' onclick='delet_task(${key_no})'></i>
                                  <i class='fa fa-pencil position-relative float-right mr-5' onclick='edit(${key_no})'></i>
-                                 <input type='checkbox' onclick='complete(${i})' class='form-check-input position-relative float-right mr-5' id='${key_no}'></div>`;                    
-            }
-            chk();
-
-        function chk(){
-            for (let x = 0; x<task.length; x++) {
-                key_no=task[x].id;
-                if(task[x].checked){
-                    let inp=document.getElementById(key_no);
-                    inp.checked=true;
-                    document.getElementById('p'+key_no).style.textDecoration="line-through";
-                    console.log(inp)
-                }
+                                 <input type='checkbox' onclick='complete(${i})' class='form-check-input position-relative float-right mr-5' id='${key_no}' ${(task[x].checked)?"checked":'' }></div>`;                    
+                                 
+            if(task[x].checked){
+                document.getElementById('p'+key_no).style.textDecoration="line-through";                   
             }
         }
 
@@ -49,7 +40,6 @@
 
                 txt_area.value='';
             }
-            chk();
         }
 
         function complete(id){
