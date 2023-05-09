@@ -90,7 +90,7 @@ function start_pause(){
             if(ss<10)ss='0'+ss;
             count_down.innerText=mm+":"+ss;
             ss--;
-        },100);
+        },1000);
 
     }
     else{
